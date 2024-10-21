@@ -27,8 +27,8 @@ class FlutterQrPlugin : FlutterPlugin, ActivityAware {
     }
 
     override fun onDetachedFromActivityForConfigChanges() {
-        QrShared.activity = null
-        QrShared.binding = null
+        // QrShared.activity = null
+        // QrShared.binding = null
     }
 
     override fun onReattachedToActivityForConfigChanges(activityPluginBinding: ActivityPluginBinding) {
@@ -37,8 +37,8 @@ class FlutterQrPlugin : FlutterPlugin, ActivityAware {
     }
 
     override fun onDetachedFromActivity() {
-        QrShared.activity = null
-        QrShared.binding = null
+        // QrShared.activity = null
+        // QrShared.binding = null
     }
 
     companion object {
