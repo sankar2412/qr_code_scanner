@@ -271,6 +271,12 @@ class QRViewControllerWeb implements QRViewController {
   }
 
   @override
+  Future<List<String>> scanQrcodeFromImage(String path) {
+    // TODO: implement getQrCodeByImagePath
+    throw UnimplementedError();
+  }
+
+  @override
   Future<CameraFacing> getCameraInfo() async {
     return _state.facing;
   }
